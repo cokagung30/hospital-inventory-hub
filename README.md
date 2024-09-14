@@ -72,3 +72,31 @@ The app uses **JWT** for secure authentication. After logging in, you will recei
 Example:
 ```http
 Authorization: Bearer your_jwt_token_here
+
+---
+
+## Project Structure 📂
+
+The project follows a modular structure to keep the codebase organized and maintainable. Below is an overview of the key directories and files in the project:
+
+```bash
+├── src/                         # Main application folder
+│   ├── config/                  # Configuration files for the app (e.g., Firebase, Elasticsearch)
+│   ├── locales/                 # Localization files (i18n JSON translation files)
+│   ├── middleware/              # Custom middleware functions (e.g., auth, rate-limiting)
+│   ├── models/                  # Database models for interacting with Firebase or other databases
+│   ├── modules/                 # Core modules handling business logic and features
+│   ├── types/                   # TypeScript type definitions for strong typing
+│   ├── utils/                   # Utility functions for common operations
+│   ├── i18n.ts                  # i18n (internationalization) setup and configuration
+│   ├── index.ts                 # Entry point for starting the Express server
+│   ├── module-alias.ts          # Alias configuration for cleaner imports
+├── .env                         # Environment variables (hidden, not tracked by version control)
+├── .env.example                 # Example of environment variables setup for contributors
+├── .gitignore                   # List of files and directories ignored by Git
+├── eslint.config.mjs            # ESLint configuration file for code linting
+├── package-lock.json            # Lock file for package management
+├── package.json                 # Project metadata and dependencies
+├── README.md                    # Documentation for the project
+└── tsconfig.json                # TypeScript configuration file
+
