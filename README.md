@@ -24,35 +24,6 @@ A **Node.js** and **Express** powered backend for managing hospital inventory ef
 
 ---
 
-## Setup Instructions 🛠️
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/cokagung30/hospital-inventory-hub.git
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    npm install
-    ```
-
-3. **Set up Firebase**:  
-    Add your Firebase credentials to a `.env` file:
-    ```bash
-    FIREBASE_PROJECT_ID=<your-project-id>
-    FIREBASE_CLIENT_EMAIL=<your-client-email>
-    FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n<your-private-key>\n-----END PRIVATE KEY-----\n"
-    JWT_SECRET=""
-    ELASTICSEARCH_NODE=""
-    ```
-
-4. **Run the application**:
-    ```bash
-    npm run dev
-    ```
-
----
-
 ## API Documentation 📄
 
 You can explore the API using **Swagger**. Once the app is running, visit:
@@ -101,3 +72,32 @@ The project follows a modular structure to keep the codebase organized and maint
 ├── README.md                    # Documentation for the project
 └── tsconfig.json                # TypeScript configuration file
 ```
+
+---
+
+## Setup Instructions 🛠️
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/cokagung30/hospital-inventory-hub.git
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Set up Firebase**:  
+    Add your Firebase credentials to a `.env` file:
+    ```bash
+    FIREBASE_PROJECT_ID=<your-project-id>
+    FIREBASE_CLIENT_EMAIL=<your-client-email>
+    FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n<your-private-key>\n-----END PRIVATE KEY-----\n"
+    JWT_SECRET=""
+    ELASTICSEARCH_NODE=""
+    ```
+
+4. **Run the application**:
+    ```bash
+    npm run dev
+    ```
