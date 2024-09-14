@@ -79,7 +79,6 @@ Authorization: Bearer your_jwt_token_here
 
 The project follows a modular structure to keep the codebase organized and maintainable. Below is an overview of the key directories and files in the project:
 
-```bash
 ├── src/                         # Main application folder
 │   ├── config/                  # Configuration files for the app (e.g., Firebase, Elasticsearch)
 │   ├── locales/                 # Localization files (i18n JSON translation files)
