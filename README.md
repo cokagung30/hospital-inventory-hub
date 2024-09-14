@@ -1,7 +1,5 @@
 # **Hospital Inventory Management App** 🏥
 
-![Hospital Inventory](https://your-image-url.com) <!-- Replace with actual image URL -->
-
 A **Node.js** and **Express** powered backend for managing hospital inventory efficiently. Integrated with **Firebase** for real-time data handling, **Elasticsearch** for advanced search functionalities, and **JWT authentication** for secure user access. This app allows hospitals to track medical supplies, equipment, and pharmaceuticals with ease.
 
 ## Key Features 🔑
@@ -58,3 +56,7 @@ A **Node.js** and **Express** powered backend for managing hospital inventory ef
 ## API Documentation 📄
 
 You can explore the API using **Swagger**. Once the app is running, visit:
+
+```bash
+    http://localhost:5050/api-docs
+```
