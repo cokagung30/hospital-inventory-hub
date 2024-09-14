@@ -72,6 +72,7 @@ The app uses **JWT** for secure authentication. After logging in, you will recei
 Example:
 ```http
 Authorization: Bearer your_jwt_token_here
+```
 
 ---
 
@@ -79,6 +80,7 @@ Authorization: Bearer your_jwt_token_here
 
 The project follows a modular structure to keep the codebase organized and maintainable. Below is an overview of the key directories and files in the project:
 
+```bash
 ├── src/                         # Main application folder
 │   ├── config/                  # Configuration files for the app (e.g., Firebase, Elasticsearch)
 │   ├── locales/                 # Localization files (i18n JSON translation files)
@@ -98,4 +100,4 @@ The project follows a modular structure to keep the codebase organized and maint
 ├── package.json                 # Project metadata and dependencies
 ├── README.md                    # Documentation for the project
 └── tsconfig.json                # TypeScript configuration file
-
+```
