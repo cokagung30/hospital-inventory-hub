@@ -1,0 +1,7 @@
+{
+    "message": {
+        "not-found": "{{type}} tidak ditemukan",
+        "required": "{{field}} tidak boleh kosong",
+        "rate-limit": "Terlalu banyak permintaan dari IP ini, coba lagi dalam {{minute}} menit"
+    }
+}

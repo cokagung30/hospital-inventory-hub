@@ -1,0 +1,9 @@
+{
+    "message": {
+        "insert-success": "Category created successfully",
+        "update-success": "Category updated successfully",
+        "delete-success": "Category deleted successfully",
+        "detail-finded": "Category detail finded",
+        "list-fetched": "Category fetched"
+    }
+}

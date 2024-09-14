@@ -1,0 +1,33 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# DS spesific files
+.DS_Store
+Thumbs.db
+
+.env
+.env.test
+.env.local
+
+# Ignore build files
+/dist
+/build
+/tmp
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore coverage reports
+coverage/
+*.lcov

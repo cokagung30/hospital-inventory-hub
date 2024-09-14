@@ -1,0 +1,9 @@
+{
+    "message": {
+        "insert-success": "Kategori berhasil dibuat",
+        "update-success": "Pembaharuan kategori berhasil",
+        "delete-success": "Hapus kategori berhasil",
+        "detail-finded": "Detail kategori ditemukan",
+        "list-fetched": "Kategori berhasil diambil"
+    }
+}

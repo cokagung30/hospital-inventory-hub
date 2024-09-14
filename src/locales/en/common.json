@@ -1,0 +1,7 @@
+{
+    "message": {
+        "not-found": "{{type}} not found",
+        "required": "{{field}} is required",
+        "rate-limit": "Too many requests from this IP, please try again after {{minute}} minutes"
+    }
+}

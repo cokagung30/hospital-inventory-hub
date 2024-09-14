@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "paths": {
+            "*": ["src/types/*"],
+            "@middleware/*": ["src/middleware/*"],
+            "@config/*": ["src/config/*"],
+            "@utils/*": ["src/utils/*"],
+            "@models/*": ["src/models/*"],
+            "@modules/*": ["src/modules/*"]
+        }
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts"],
+    "exclude": ["node_modules"]
+}
