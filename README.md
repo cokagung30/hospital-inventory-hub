@@ -101,3 +101,8 @@ The project follows a modular structure to keep the codebase organized and maint
     ```bash
     npm run dev
     ```
+
+---
+
+## Contributing 🤝
+Feel free to reach out for any questions or contributions!
