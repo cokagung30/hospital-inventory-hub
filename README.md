@@ -58,5 +58,17 @@ A **Node.js** and **Express** powered backend for managing hospital inventory ef
 You can explore the API using **Swagger**. Once the app is running, visit:
 
 ```bash
-    http://localhost:5050/api-docs
+http://localhost:5050/api-docs
 ```
+
+![Swagger UI](https://github.com/user-attachments/assets/04eae2e8-2b04-4ea1-b36a-93380d6f134e)
+
+---
+
+## Authentication 🔐
+
+The app uses **JWT** for secure authentication. After logging in, you will receive a JWT token which should be included in the `Authorization` header for all authenticated requests.
+
+Example:
+```http
+Authorization: Bearer your_jwt_token_here
