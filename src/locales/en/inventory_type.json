@@ -1,0 +1,9 @@
+{
+    "message": {
+        "insert-success": "Inventory type created successfully",
+        "update-success": "Inventory type updated successfully",
+        "delete-success": "Inventory type deleted successfully",
+        "detail-finded": "Inventory type detail finded",
+        "list-fetched": "Inventory type fetched"
+    }
+}

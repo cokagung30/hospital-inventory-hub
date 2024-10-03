@@ -6,6 +6,7 @@ import { swaggerSpec } from '@config/swagger';
 import authRouters from '@modules/auth/auth.routes';
 import inventoryRouters from '@modules/inventory/inventory.routes';
 import categoryRouters from '@modules/master/category/category.routes';
+import inventoryTypeRouters from '@modules/master/inventory-type/inventoryType.routes';
 import { i18nPromise } from './i18n';
 import { limiter } from '@config/rateLimiter';
 
@@ -21,6 +22,7 @@ i18nPromise.then(() => {
     app.use('/api/auth', authRouters);
     app.use('/api/inventory', inventoryRouters);
     app.use('/api/master/category', categoryRouters);
+    app.use('/api/master/inventory-type', inventoryTypeRouters);
     app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
     const PORT = process.env.PORT || 5050;

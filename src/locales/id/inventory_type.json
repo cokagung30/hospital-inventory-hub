@@ -1,0 +1,9 @@
+{
+    "message": {
+        "insert-success": "Tipe inventaris berhasil dibuat",
+        "update-success": "Tipe inventaris berhasil diperbaharui",
+        "delete-success": "Tipe inventaris berhasil dihapus",
+        "detail-finded": "Detail tipe inventaris ditemukan",
+        "list-fetched": "Tipe inventaris berhasil dimuat"
+    }
+}
