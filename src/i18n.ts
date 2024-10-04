@@ -7,7 +7,7 @@ const i18nPromise = new Promise((resolve, reject) => {
     i18next.use(Backend).init({
         lng: 'en', 
         fallbackLng: 'en',
-        ns: ['common', 'category'],
+        ns: ['common', 'category', 'inventory_type'],
         defaultNS: 'category',
         backend: {
             loadPath: join(__dirname, '/locales/{{lng}}/{{ns}}.json'),

@@ -2,6 +2,7 @@ import { esClient } from "@config/elasticsearch";
 import { db } from "@config/firebase";
 import admin from 'firebase-admin';
 import { IInventoryType } from "@models/InventoryType";
+import { match } from "assert";
 
 class InventoryTypeService {
     private static COLLECTION = db.collection('inventory_type');
@@ -22,7 +23,7 @@ class InventoryTypeService {
     async fetch(search?: string): Promise<IInventoryType[]> {
         const query = (search == null) 
             ? { match_all: {} } 
-            : { wildcard: { name: `*${search.toLowerCase()}*` } };
+            : { match: { name: search } };
 
         const result = await esClient.search<IInventoryType>({
             index: 'inventory_type',

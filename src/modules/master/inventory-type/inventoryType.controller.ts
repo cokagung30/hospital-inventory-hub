@@ -37,7 +37,8 @@ class InventoryTypeController {
         const { search } = req.query;
         
         try {
-            const inventoryTypes = await inventoryTypeService.find(search as string);
+            const inventoryTypes = await inventoryTypeService.fetch(search as string);
+
             res.status(200).json({
                 code: 200,
                 message: i18next.t('inventory_type:message.list-fetched'),
@@ -45,7 +46,10 @@ class InventoryTypeController {
             })
         } catch (error) {
             if (error instanceof Error) {
-                res.status(res.statusCode).json({code: res.statusCode, message: error.message});
+                res.status(500).json({
+                    code: 500, 
+                    message: error.message
+                });
             }
         }
     }
